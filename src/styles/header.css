@@ -1,0 +1,28 @@
+@import url(reset.css);
+@import url(colors.css);
+
+header{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    font-family: "Truculenta";
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-thickness: .3rem;
+    text-decoration-color: var(--color-red-primary);
+}
+
+.logo img{
+    width: 14%;
+}

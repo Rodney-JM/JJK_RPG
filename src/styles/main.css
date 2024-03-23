@@ -1,0 +1,6 @@
+@import url(reset.css);
+@import url(header.css);
+
+body{
+    background: url(../assets/images/home_bg.jpeg);
+}
