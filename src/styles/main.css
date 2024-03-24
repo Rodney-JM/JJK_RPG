@@ -97,3 +97,14 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width:1024px){
+    .home h2{
+        font-size: 3rem;
+    }
+
+    .home p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
