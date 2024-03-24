@@ -15,13 +15,14 @@ footer{
     padding: 1rem 0;
 }
 
-.logo img{
+.logo_footer img{
     width: 20%;
 }
 
 .contacts{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.3rem;
     margin-right: 3rem;
 }
@@ -49,4 +50,20 @@ footer{
 .site_copy{
     background-color: black;
     padding: .6rem 0;
+}
+
+@media (max-width:768px){
+    .right_side_footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo_footer{
+        text-align: center;
+    }
+   
+    .contacts{
+        margin-right: 0;
+    }
 }

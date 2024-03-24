@@ -64,6 +64,7 @@
 
     padding: 1rem 2rem 1rem 2rem;
     font-size: 2rem;
+    font-family: "Truculenta", sans-serif;
 
     background-color: var(--color-red-primary);
     color: var(--color-text);
@@ -80,4 +81,19 @@
 
 .btn:active{
     background-color: var(--btn-colorActive);
+}
+
+@media (max-width:768px){
+    .home h2{
+        font-size: 2rem;
+    }
+    .home p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .btn{
+        padding: .5rem 1rem .5rem 1rem;
+        font-size: 1.5rem;
+    }
 }
