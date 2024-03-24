@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-bg-black);
+    color: var(--color-text);
+}
+
+.right_side_footer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 0;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    margin-right: 3rem;
+}
+
+.contacts .fa-brands{
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contacts .fa-brands:hover{
+    color: var(--color-red-primary);
+}
+
+.credits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credits p{
+    margin-bottom: .5rem;
+}
+
+.site_copy{
+    background-color: black;
+    padding: .6rem 0;
+}

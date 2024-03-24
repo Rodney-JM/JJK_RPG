@@ -1,3 +1,8 @@
 :root{
     --color-red-primary: #dd0206;
+    --btn-colorHover: rgb(187, 0, 3);
+    --btn-colorActive: #680002;
+    --color-text: #D9D8D2;
+    --color-text-secundary:#b4b4b4;
+    --color-bg-black: #0B0C0C;
 }

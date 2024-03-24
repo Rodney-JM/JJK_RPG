@@ -1,6 +1,83 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(footer.css);
 
-body{
+.image_apperance{
+    height: 100vh;
     background: url(../assets/images/home_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.image_apperance::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .9;
+}
+
+.no-opacity{
+    background-clip: padding-box;/* isola o conteudo do fundo */
+    position: relative;
+    z-index: 1;
+}
+
+.home{
+    width: 60%;
+    height: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    color: var(--color-text);
+}
+.home h2, p{
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.home h2{
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.home h2 span{
+    color: var(--color-red-primary);
+}
+
+.home p{
+    width: 50%;
+    font-size: 1.5rem;
+    color: var(--color-text-secundary);
+}
+
+.btn{
+    border: none;
+    outline: none;
+
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 2rem;
+
+    background-color: var(--color-red-primary);
+    color: var(--color-text);
+
+    border-radius: .3rem;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.btn:hover{
+    background-color: var(--btn-colorHover);
+}
+
+.btn:active{
+    background-color: var(--btn-colorActive);
 }
