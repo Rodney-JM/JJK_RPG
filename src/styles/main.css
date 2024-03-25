@@ -1,13 +1,14 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(footer.css);
+@import url(navbar.css);
 
 .image_apperance{
     height: 100vh;
     background: url(../assets/images/home_bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 1;
+    z-index: 1;
 }
 
 .image_apperance::before{
@@ -24,7 +25,6 @@
 .no-opacity{
     background-clip: padding-box;/* isola o conteudo do fundo */
     position: relative;
-    z-index: 1;
 }
 
 .home{
